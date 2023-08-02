@@ -105,4 +105,14 @@ if(localStorage.local.length)
      liLeft.appendChild(para);
 
      liEl.appendChild(liLeft)
+
+     const removeBtn =document.createElement("div");
+     removeBtn.classList.add("removeBtn");
+     const closeBtn = document.createElement("span");
+     closeBtn.classList.add("material-icons");
+     closeBtn.innerHtml = `close`;
+     removeBtn.appendChild(closeBtn);
+
+     liEl.appendChild(removeBtn);
+     suggestionListEl.appendChild(liEl)
  }
