@@ -23,6 +23,15 @@ Feel free to explore the projects by navigating to their respective directories.
 To run or contribute to any of the projects in this repository, follow these steps:
 
 1. Clone the repository:
-
    ```bash
-   git clone https://github.com/Dinesh1042/Vanilla-JavaScript-Projects.git
+   git clone https://github.com/ayat0110/Allaboutjs.git
+   
+2. Navigate to the project directory:
+ ```bash
+cd Vanilla-JavaScript-Projects/Project-Name
+
+
+## Contributing
+
+
+Contributions are welcome and encouraged! If you'd like to contribute to this repository, feel free to fork the repository, make your changes, and submit a pull request. Before you start, please read our Contribution Guidelines for more information on how to contribute to this project.
