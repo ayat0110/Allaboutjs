@@ -99,4 +99,10 @@ if(localStorage.local.length)
      launchIcon.classList.add("material-icons");
      launchIcon.innerHTML = `launch`;
      liLeft.append(launchIcon);
+
+     const para = document.createElement("p");
+     para.innerHtml = list.replace(matchValue, `<span>${matchValue}</span>`);
+     liLeft.appendChild(para);
+
+     liEl.appendChild(liLeft)
  }
