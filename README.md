@@ -27,9 +27,9 @@ To run or contribute to any of the projects in this repository, follow these ste
    git clone https://github.com/ayat0110/Allaboutjs.git
    
 2. Navigate to the project directory:
- ```bash
-cd Vanilla-JavaScript-Projects/Project-Name
-```
+   ```bash
+   cd Vanilla-JavaScript-Projects/Project-Name
+   ```
 
 ## Contributing
 
