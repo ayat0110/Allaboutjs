@@ -80,4 +80,7 @@ class LocalStorage {
         suggestionWords = suggestionWords.filter((item) => item !== value);
         this.stringfyLocal();
     }
+    stringfyLocal() {
+        localStorage.setItem(this.localKey, JSON.stringify(this.local));
+    }
 }
