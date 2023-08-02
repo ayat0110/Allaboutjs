@@ -84,3 +84,8 @@ class LocalStorage {
         localStorage.setItem(this.localKey, JSON.stringify(this.local));
     }
 }
+
+const localStorage = new LocalStorage("AutocompleteSuggestions");
+
+if(localStorage.local.length)
+ suggestionWords = [...suggestionWords, ...localStorage.local]
