@@ -29,7 +29,7 @@ To run or contribute to any of the projects in this repository, follow these ste
 2. Navigate to the project directory:
  ```bash
 cd Vanilla-JavaScript-Projects/Project-Name
-
+```
 
 ## Contributing
 
