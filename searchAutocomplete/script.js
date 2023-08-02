@@ -68,4 +68,11 @@ class LocalStorage {
             : [];
         this.localKey = LOCALSTORAGE_KEY;
     }
+    saveLocal(userSuggest) {
+        if(!suggestionWords.includes(userSuggest)) {
+            this.local.push(userSuggest);
+            this.local = [...new Set(this.local)];
+            this.stringfyLocal();
+        }
+    }
 }
