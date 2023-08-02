@@ -75,4 +75,9 @@ class LocalStorage {
             this.stringfyLocal();
         }
     }
+    deleteLocal(value) {
+        this.local = this.local.filter((item) => item !== value);
+        suggestionWords = suggestionWords.filter((item) => item !== value);
+        this.stringfyLocal();
+    }
 }
