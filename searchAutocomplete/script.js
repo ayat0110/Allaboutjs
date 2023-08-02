@@ -89,3 +89,14 @@ const localStorage = new LocalStorage("AutocompleteSuggestions");
 
 if(localStorage.local.length)
  suggestionWords = [...suggestionWords, ...localStorage.local]
+
+ function createSuggestionList(list, matchValue) {
+    const liEl = document.createElement("li");
+     const liLeft = document.createElement("div");
+     liLeft.classList.add("liLeft");
+
+     const launchIcon = document.createElement("span");
+     launchIcon.classList.add("material-icons");
+     launchIcon.innerHTML = `launch`;
+     liLeft.append(launchIcon);
+ }
